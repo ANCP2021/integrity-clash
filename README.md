@@ -1,5 +1,7 @@
 # Authenticated Contradictions from Desynchronized Provenance and Watermarking
 
+Paper: [https://arxiv.org/abs/2603.02378](https://arxiv.org/abs/2603.02378)
+
 Pipeline for generating images, embedding and detecting PixelSeal watermarks, and signing/verifying them with C2PA Content Credentials. Use the same metadata for watermark detection on both unsigned watermarked images and signed images.
 
 ## Pipeline Overview
@@ -266,6 +268,17 @@ Labels for attack JSONs are derived from filenames (e.g. "jpeg", "crop", "social
 | `verify_images.py`                | Verify signed PNGs and print manifest/validation.                      |
 | `audit_protocol.py`               | Classify cases into Q1–Q4 and compute audit metrics/tables.            |
 | `plot_bit_accuracy_distributions.py` | Plot bit-accuracy distributions by condition with threshold line.   |
+
+## Citation
+
+```bibtex
+@article{nemecek2026authenticated,
+  title={Authenticated Contradictions from Desynchronized Provenance and Watermarking},
+  author={Nemecek, Alexander and He, Hengzhi and Cheng, Guang and Ayday, Erman},
+  journal={arXiv preprint arXiv:2603.02378},
+  year={2026}
+}
+```
 
 ## License
 
