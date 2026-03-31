@@ -1,0 +1,25 @@
+{
+  "claim_generator": "png_signer_example",
+  "claim_generator_info": [
+    {
+      "name": "png_signer_example",
+      "version": "1.0.0"
+    }
+  ],
+  "format": "image/png",
+  "title": "Human-edited image",
+  "ingredients": [],
+  "assertions": [
+    {
+      "label": "c2pa.actions",
+      "data": {
+        "actions": [
+          {
+            "action": "c2pa.edited",
+            "softwareAgent": "PhotoEditor/2.0"
+          }
+        ]
+      }
+    }
+  ]
+}

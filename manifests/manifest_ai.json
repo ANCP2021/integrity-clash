@@ -1,0 +1,26 @@
+{
+  "claim_generator": "png_signer_example",
+  "claim_generator_info": [
+    {
+      "name": "png_signer_example",
+      "version": "1.0.0"
+    }
+  ],
+  "format": "image/png",
+  "title": "AI generated image",
+  "ingredients": [],
+  "assertions": [
+    {
+      "label": "c2pa.actions",
+      "data": {
+        "actions": [
+          {
+            "action": "c2pa.created",
+            "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+            "softwareAgent": "StableDiffusionXL/1.0"
+          }
+        ]
+      }
+    }
+  ]
+}
